@@ -1,7 +1,6 @@
 {
   "cli": {
-    "version": ">= 12.1.1",
-    "appExtensions": {}
+    "version": ">= 12.1.1"
   },
   "build": {
     "development": {
