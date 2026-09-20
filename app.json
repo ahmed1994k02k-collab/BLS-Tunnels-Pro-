@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "BLS Tunnels Pro",
+    "slug": "bls-tunnels-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./تنزيل.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
