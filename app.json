@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "BLS Tunnels Pro",
-    "slug": "bls-tunnels-pro",
+    "slug": "BLS-Tunnels-Pro",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./تنزيل.jpeg",
@@ -10,8 +10,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ahmed1994k02k.blstunnelspro"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
