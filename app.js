@@ -46,7 +46,7 @@ export default function App() {
         {tab === 'home' && (
           <View>
             <Text style={styles.sub}>Next-Gen Premium VPN Tunnel</Text>
-            
+
             <View style={[styles.statsRow, { backgroundColor: theme.card, borderColor: theme.border }]}>
               <View style={styles.statBox}>
                 <Text style={[styles.statVal, { color: status === 'connected' ? '#00D9A3' : '#94A3B8' }]}>
