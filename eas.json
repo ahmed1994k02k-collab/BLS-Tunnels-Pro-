@@ -8,9 +8,7 @@
       "android": {
         "buildType": "apk"
       },
-      "env": {
-        "EXPO_DISABLE_DOCTOR": "1"
-      }
+      "disableDoctor": true
     }
   }
 }
