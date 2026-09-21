@@ -47,9 +47,6 @@ export default function App() {
           <View>
             <Text style={styles.sub}>Next-Gen Premium VPN Tunnel</Text>
             
-            {/* تم إخفاء الصورة مؤقتاً لضمان نجاح البناء وتجنب انهيار السيرفر */}
-            {/* <Image source={require('./تنزيل.jpeg')} style={styles.appLogo} /> */}
-
             <View style={[styles.statsRow, { backgroundColor: theme.card, borderColor: theme.border }]}>
               <View style={styles.statBox}>
                 <Text style={[styles.statVal, { color: status === 'connected' ? '#00D9A3' : '#94A3B8' }]}>
@@ -139,6 +136,5 @@ const styles = StyleSheet.create({
   inputLbl: { fontSize: 11, color: '#666' },
   popInput: { fontSize: 15, color: '#000', paddingVertical: 2 }, 
   btnRow: { flexDirection: 'row', justifyContent: 'space-between' },
-  btnTxt: { fontSize: 16, fontWeight: 'bold', color: '#666' },
-  appLogo: { width: 100, height: 100, alignSelf: 'center', marginBottom: 15 }
+  btnTxt: { fontSize: 16, fontWeight: 'bold', color: '#666' }
 });
